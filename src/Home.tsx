@@ -6,6 +6,7 @@ const Home: React.FC = () => {
     const { data: blogs, isPending, error }: { data: Post[], isPending: boolean, error: string | null } = useFetch('http://localhost:4200/blogs')
     // const handleDelete = (id: number) => setBlogs(blogs.filter(blog => blog.id !== id))
 
+    // TODO: fix
     // useEffect(() => {
     //     console.log('on delete');
     // }, [handleDelete])

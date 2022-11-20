@@ -8,22 +8,20 @@ const useFetch = (url: string) => {
     const [error, setError] = useState<string | null>(null)
 
     useEffect(() => {
-        setTimeout(() => {
-            fetch(url)
-                .then(res => {
-                    if (!res.ok) {
-                    }
-                    res.json().then(data => {
-                        setData(data as Post[])
-                        setIsPending(false)
-                        setError(null)
-                    })
-                })
-                .catch(e => {
-                    setError(e)
+        fetch(url)
+            .then(res => {
+                if (!res.ok) {
+                }
+                res.json().then(data => {
+                    setData(data as Post[])
                     setIsPending(false)
-                });
-        }, 500)
+                    setError(null)
+                })
+            })
+            .catch(e => {
+                setError(e)
+                setIsPending(false)
+            });
     }, [url])
 
     return { data, isPending, error }
