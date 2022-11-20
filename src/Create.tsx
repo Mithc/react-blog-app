@@ -1,7 +1,7 @@
-const Create = () => {
-    return ( <div className="create">
+const Create: () => JSX.Element = () => {
+    return (<div className="create">
         Create!
-    </div> );
+    </div>);
 }
- 
+
 export default Create;

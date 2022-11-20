@@ -1,11 +1,11 @@
 import Home from './Home';
-import Navbar from './Navbar';
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
+  RouterProvider
 } from "react-router-dom";
 import Create from './Create';
+import Navbar from './Navbar';
+import PostDetails from './PostDetails';
 
 function App() {
   const router = createBrowserRouter([
@@ -16,11 +16,16 @@ function App() {
     {
       path: '/create',
       element: <Create />
+    },
+    {
+      path: '/blogs/:id',
+      element: <PostDetails />
     }
   ])
   return (
     <div className="App">
       <Navbar />
+
       <div className="content">
         <RouterProvider router={router} />
       </div>
