@@ -7,6 +7,7 @@
   font-family: "Nanum Gothic";
   color: #333;
 }
+
 .navbar {
   background-color: #333;
   padding: 20px;
@@ -15,22 +16,27 @@
   justify-content: space-between;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+
   h2 {
     color: #f1356d;
   }
+
   .links {
     margin-left: auto;
   }
+
   a {
     margin-left: 16px;
     color: #fff;
     text-decoration: none;
     padding: 6px;
   }
+
   a:hover {
     color: #f1356d;
   }
 }
+
 .content {
   max-width: 600px;
   margin: 40px auto;
@@ -40,12 +46,13 @@
 .home {
   display: flex;
   flex-direction: column;
+
   .blog-preview {
     width: 100%;
     padding: 10px;
     margin: 20px 0;
     border-bottom: 1px solid #fafafa;
-    
+
     &:hover {
       box-shadow: 1px 3px 5px rgba($color: #000000, $alpha: 0.1);
     }
