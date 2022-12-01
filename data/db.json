@@ -2,21 +2,21 @@
     "blogs": [
         {
           "id": 1,
-          "title": "Blog post 1",
-          "author": "Mithc",
+          "title": "Funny story",
+          "author": "RuGPT3",
           "date": "2022-11-18T13:19:14.242Z",
           "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aperiam nostrum veritatis ipsum labore odit qui vero sunt id corrupti sit sed odio facere, aliquam deleniti facilis exercitationem quam animi?"
         },
         {
           "id": 2,
-          "title": "Blog post 2",
+          "title": "Vacation report",
           "author": "Jake",
           "date": "2022-11-18T13:19:14.242Z",
           "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aperiam nostrum veritatis ipsum labore odit qui vero sunt id corrupti sit sed odio facere, aliquam deleniti facilis exercitationem quam animi?"
         },
         {
           "id": 3,
-          "title": "Blog post 3",
+          "title": "Cat's daily",
           "author": "Vasich",
           "date": "2022-11-18T13:19:14.242Z",
           "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aperiam nostrum veritatis ipsum labore odit qui vero sunt id corrupti sit sed odio facere, aliquam deleniti facilis exercitationem quam animi?"

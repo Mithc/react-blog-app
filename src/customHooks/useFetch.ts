@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Post } from "../interfaces/post";
 
 const useFetch = <T>(url: string): { data: T | null, isPending: boolean, error: string | null } => {
     const abortController = new AbortController();

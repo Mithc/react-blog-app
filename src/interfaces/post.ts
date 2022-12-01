@@ -2,6 +2,6 @@ export interface Post {
     id: number,
     title: string,
     author: string,
-    date: Date,
+    date: string,
     body: string
 }

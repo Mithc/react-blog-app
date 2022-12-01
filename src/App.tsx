@@ -1,11 +1,11 @@
-import Home from './Home';
+import Home from './components/Home/Home';
 import {
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom";
-import Create from './Create';
+import Create from './components/Create/Create';
 import Navbar from './Navbar';
-import PostDetails from './PostDetails';
+import PostDetails from './components/PostDetails/PostDetails';
 
 function App() {
   const router = createBrowserRouter([
